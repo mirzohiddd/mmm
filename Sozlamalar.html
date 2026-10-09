@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mean.css">
+    <title>Sozlamalar</title>
+</head>
+<body>
+<div class="dashboard">
+    <aside class="sizebar">
+
+        <a href="./Dashbort.html">
+            Dashboard
+        </a>
+
+        <a href="./Hodimlar.html">
+            Hodimlar
+        </a>
+
+        <a href="./O'quvchilar.html">
+            O'quvchilar
+        </a>
+
+        <a href="./Analetika.html">
+            Analitika
+        </a>
+
+        <a href="./Sozlamalar.html" class="active">
+            Sozlamalar
+        </a>
+
+        <a href="./index.html">
+            Chiqish
+        </a>
+
+    </aside>
+    <main class="dashboard-content">
+
+        <div class="page-header">
+
+            <div>
+                <h1>Sozlamalar</h1>
+
+                <p>
+                    Tizim sozlamalarini boshqarish
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- PROFILE -->
+        <div class="settings-box">
+
+            <div class="settings-header">
+                <div>
+                    <h2>Profil ma'lumotlari</h2>
+
+                    <p>
+                        Shaxsiy ma'lumotlaringizni o'zgartiring
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="settings-form">
+
+                <div class="settings-input-group">
+
+                    <label for="name">
+                        Ism
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Ismingizni kiriting"
+                        value="Mirzohid"
+                    >
+
+                </div>
+
+
+                <div class="settings-input-group">
+
+                    <label for="surname">
+                        Familiya
+                    </label>
+
+                    <input
+                        type="text"
+                        id="surname"
+                        placeholder="Familiyangizni kiriting"
+                        value="Shermanov"
+                    >
+
+                </div>
+
+
+                <div class="settings-input-group">
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="example@gmail.com"
+                    >
+
+                </div>
+
+
+                <div class="settings-input-group">
+
+                    <label for="phone">
+                        Telefon
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="+998 90 123 45 67"
+                    >
+
+                </div>
+
+
+                <button class="save-button">
+                    Saqlash
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- PASSWORD -->
+        <div class="settings-box">
+
+            <div class="settings-header">
+
+                <div>
+
+                    <h2>Parolni o'zgartirish</h2>
+
+                    <p>
+                        Hisobingiz xavfsizligi uchun yangi parol o'rnating
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="settings-form">
+
+                <div class="settings-input-group">
+
+                    <label for="oldPassword">
+                        Eski parol
+                    </label>
+
+                    <input
+                        type="password"
+                        id="oldPassword"
+                        placeholder="Eski parolni kiriting"
+                    >
+
+                </div>
+
+
+                <div class="settings-input-group">
+
+                    <label for="newPassword">
+                        Yangi parol
+                    </label>
+
+                    <input
+                        type="password"
+                        id="newPassword"
+                        placeholder="Yangi parolni kiriting"
+                    >
+
+                </div>
+
+
+                <div class="settings-input-group">
+
+                    <label for="confirmPassword">
+                        Yangi parolni tasdiqlash
+                    </label>
+
+                    <input
+                        type="password"
+                        id="confirmPassword"
+                        placeholder="Yangi parolni qayta kiriting"
+                    >
+
+                </div>
+
+
+                <button class="save-button">
+                    Parolni yangilash
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- SYSTEM SETTINGS -->
+        <div class="settings-box">
+
+            <div class="settings-header">
+
+                <div>
+
+                    <h2>Tizim sozlamalari</h2>
+
+                    <p>
+                        Dashboard ko'rinishini boshqaring
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="system-settings">
+
+                <div class="setting-item">
+
+                    <div>
+                        <h3>Email bildirishnomalar</h3>
+
+                        <p>
+                            Yangi ma'lumotlar haqida email orqali xabar olish
+                        </p>
+                    </div>
+
+                    <label class="switch">
+
+                        <input type="checkbox" checked>
+
+                        <span class="slider"></span>
+
+                    </label>
+
+                </div>
+
+
+                <div class="setting-item">
+
+                    <div>
+                        <h3>Avtomatik yangilash</h3>
+
+                        <p>
+                            Dashboard ma'lumotlarini avtomatik yangilash
+                        </p>
+                    </div>
+
+                    <label class="switch">
+
+                        <input type="checkbox" checked>
+
+                        <span class="slider"></span>
+
+                    </label>
+
+                </div>
+
+
+                <div class="setting-item">
+
+                    <div>
+                        <h3>Profilni himoyalash</h3>
+
+                        <p>
+                            Hisobingiz uchun qo'shimcha himoya
+                        </p>
+                    </div>
+
+                    <label class="switch">
+
+                        <input type="checkbox">
+
+                        <span class="slider"></span>
+
+                    </label>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+        <script src="./mean.js"></script>
+
+
+</div>
+</body>
+</html>

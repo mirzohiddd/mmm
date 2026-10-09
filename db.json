@@ -1,0 +1,163 @@
+{
+  "students": [
+    {
+      "id": "muwsab4xb1d7bf",
+      "source": "crm",
+      "name": "Azizbek Rustamov",
+      "phone": "+998 94 456 78 90",
+      "direction": "Python",
+      "group": "Python-01",
+      "active": false,
+      "createdAt": "2026-05-03T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4x51b6b0",
+      "source": "crm",
+      "name": "Jasur Ahmedov",
+      "phone": "+998 93 345 67 89",
+      "direction": "Data Analytics",
+      "group": "Data-01",
+      "active": false,
+      "createdAt": "2026-06-08T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4x27a47b",
+      "source": "crm",
+      "name": "Madina Xasanova",
+      "phone": "+998 93 345 67 80",
+      "direction": "UI/UX",
+      "group": "UIUX-01",
+      "active": true,
+      "createdAt": "2026-06-15T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4xc19c10",
+      "source": "crm",
+      "name": "Sardor Karimov",
+      "phone": "+998 91 234 56 79",
+      "direction": "Backend",
+      "group": "Backend-01",
+      "active": true,
+      "createdAt": "2026-07-06T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4x642755",
+      "source": "crm",
+      "name": "Shahzoda Aliyeva",
+      "phone": "+998 95 567 89 01",
+      "direction": "Frontend",
+      "group": "Frontend-02",
+      "active": true,
+      "createdAt": "2026-08-12T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4xf2712e",
+      "source": "crm",
+      "name": "Aziza Sobirova",
+      "phone": "+998 94 456 78 91",
+      "direction": "UI/UX",
+      "group": "UIUX-01",
+      "active": true,
+      "createdAt": "2026-09-04T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4xf7bf1b",
+      "source": "crm",
+      "name": "Jasur Ahmedov",
+      "phone": "+998 93 345 67 81",
+      "direction": "AI",
+      "group": "AI-01",
+      "active": true,
+      "createdAt": "2026-09-20T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4xd9bc32",
+      "source": "crm",
+      "name": "Madina Karimova",
+      "phone": "+998 91 234 56 78",
+      "direction": "Backend",
+      "group": "Backend-01",
+      "active": true,
+      "createdAt": "2026-10-02T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4x129f3e",
+      "source": "crm",
+      "name": "Ali Valiyev",
+      "phone": "+998 90 123 45 67",
+      "direction": "Frontend",
+      "group": "Frontend-01",
+      "active": true,
+      "createdAt": "2026-10-03T14:38:28.065Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": "muwsab4y33829e",
+      "source": "crm",
+      "name": "Muslimaxon",
+      "position": "Administrator",
+      "phone": "+998 90 123 45 67",
+      "active": true,
+      "createdAt": "2026-04-10T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4yf3a9d8",
+      "source": "crm",
+      "name": "Malika",
+      "position": "Menejer",
+      "phone": "+998 91 222 33 44",
+      "active": true,
+      "createdAt": "2026-05-10T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4y8b15cb",
+      "source": "crm",
+      "name": "Hadicha",
+      "position": "Operator",
+      "phone": "+998 93 555 66 77",
+      "active": true,
+      "createdAt": "2026-07-10T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4y52bc91",
+      "source": "crm",
+      "name": "Maryam",
+      "position": "Sotuvchi",
+      "phone": "+998 95 777 88 99",
+      "active": false,
+      "createdAt": "2026-08-10T14:38:28.065Z"
+    },
+    {
+      "id": "muwsab4yc119fe",
+      "source": "crm",
+      "name": "Emona",
+      "position": "Menejer",
+      "phone": "+998 97 111 22 33",
+      "active": true,
+      "createdAt": "2026-10-02T14:38:28.065Z"
+    },
+    {
+      "name": "Mirzohid",
+      "phone": "+998 94 355 41 47",
+      "active": true,
+      "source": "telegram",
+      "telegramId": 8937282267,
+      "telegramUsername": "mirzohid_akromvich",
+      "position": "O'qituvchi",
+      "id": "muwsdg9d5bea93",
+      "createdAt": "2026-10-06T14:40:54.673Z"
+    },
+    {
+      "name": "iymona",
+      "phone": "+998 99 610 16 48",
+      "active": true,
+      "source": "telegram",
+      "telegramId": 5550228074,
+      "telegramUsername": "Iymane011",
+      "position": "Administrator",
+      "id": "muwsgepb0f387a",
+      "createdAt": "2026-10-06T14:43:12.626Z"
+    }
+  ]
+}

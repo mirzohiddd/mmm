@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <link rel="stylesheet" href="./mean.css">
+    <title>Dashboard</title>
+</head>
+<body>
+<div class="dashboard">
+    <aside class="sizebar">
+        <a href="./Dashbort.html" class="active">
+            Dashboard
+        </a>
+
+        <a href="./Hodimlar.html">
+            Hodimlar
+        </a>
+
+        <a href="./O'quvchilar.html">
+            O'quvchilar
+        </a>
+
+        <a href="./Analetika.html">
+            Analitika
+        </a>
+
+        <a href="./Sozlamalar.html">
+            Sozlamalar
+        </a>
+
+        <a href="./index.html">
+            Chiqish
+        </a>
+
+    </aside>
+
+    <main class="dashboard-content">
+        <div class="page-header">
+
+            <div>
+
+                <h1>Dashboard</h1>
+
+                <p>
+                    Tizimdagi asosiy ma'lumotlar va statistikalar
+                </p>
+
+            </div>
+
+        </div>
+        <div class="dashboard-statistics">
+
+            <div class="dashboard-stat-card">
+
+                <div class="dashboard-stat-icon">
+                    👨‍🎓
+                </div>
+
+                <div>
+
+                    <p>Jami o'quvchilar</p>
+
+                    <h2>150</h2>
+
+                    <span class="dashboard-green">
+                        +12% bu oy
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="dashboard-stat-card">
+
+                <div class="dashboard-stat-icon">
+                    👨‍💼
+                </div>
+
+                <div>
+
+                    <p>Jami hodimlar</p>
+
+                    <h2>25</h2>
+
+                    <span class="dashboard-green">
+                        +3% bu oy
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="dashboard-stat-card">
+
+                <div class="dashboard-stat-icon">
+                    ✅
+                </div>
+
+                <div>
+
+                    <p>Faol o'quvchilar</p>
+
+                    <h2>120</h2>
+
+                    <span class="dashboard-green">
+                        80% faol
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="dashboard-stat-card">
+
+                <div class="dashboard-stat-icon">
+                    ⚠️
+                </div>
+
+                <div>
+
+                    <p>Nofaol o'quvchilar</p>
+
+                    <h2>30</h2>
+
+                    <span class="dashboard-red">
+                        20% nofaol
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CONTENT GRID -->
+        <div class="dashboard-grid">
+
+
+            <!-- RECENT STUDENTS -->
+            <div class="dashboard-panel">
+
+                <div class="dashboard-panel-header">
+
+                    <div>
+
+                        <h2>So'nggi o'quvchilar</h2>
+
+                        <p>
+                            Yaqinda tizimga qo'shilgan o'quvchilar
+                        </p>
+
+                    </div>
+
+                    <a
+                        href="./O'quvchilar.html"
+                        class="dashboard-view-button"
+                    >
+                        Barchasi
+                    </a>
+
+                </div>
+
+
+                <div class="dashboard-table-wrapper">
+
+                    <table>
+
+                        <thead>
+
+                            <tr>
+
+                                <th>#</th>
+
+                                <th>Ism</th>
+
+                                <th>Telefon</th>
+
+                                <th>Yo'nalish</th>
+
+                                <th>Status</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>1</td>
+
+                                <td>Ali Valiyev</td>
+
+                                <td>+998 90 123 45 67</td>
+
+                                <td>Frontend</td>
+
+                                <td>
+                                    <span class="status active-status">
+                                        Faol
+                                    </span>
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>2</td>
+
+                                <td>Madina Karimova</td>
+
+                                <td>+998 91 234 56 78</td>
+
+                                <td>Backend</td>
+
+                                <td>
+                                    <span class="status active-status">
+                                        Faol
+                                    </span>
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>3</td>
+
+                                <td>Jasur Ahmedov</td>
+
+                                <td>+998 93 345 67 89</td>
+
+                                <td>Data Analytics</td>
+
+                                <td>
+                                    <span class="status inactive-status">
+                                        Nofaol
+                                    </span>
+                                </td>
+
+                            </tr>
+
+
+                            <tr>
+
+                                <td>4</td>
+
+                                <td>Aziza Sobirova</td>
+
+                                <td>+998 94 456 78 90</td>
+
+                                <td>UI/UX</td>
+
+                                <td>
+                                    <span class="status active-status">
+                                        Faol
+                                    </span>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </div>
+
+
+            <!-- QUICK ACTIONS -->
+            <div class="dashboard-panel">
+
+                <div class="dashboard-panel-header">
+
+                    <div>
+
+                        <h2>Tezkor amallar</h2>
+
+                        <p>
+                            Kerakli bo'limlarga tez o'tish
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="quick-actions">
+
+                    <a
+                        href="./O'quvchilar.html"
+                        class="quick-action"
+                    >
+
+                        <div class="quick-action-icon">
+                            👨‍🎓
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                O'quvchi qo'shish
+                            </h3>
+
+                            <p>
+                                Yangi o'quvchi qo'shing
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="./Hodimlar.html"
+                        class="quick-action"
+                    >
+
+                        <div class="quick-action-icon">
+                            👨‍💼
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Hodimlarni ko'rish
+                            </h3>
+
+                            <p>
+                                Barcha hodimlarni ko'ring
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="./Analetika.html"
+                        class="quick-action"
+                    >
+
+                        <div class="quick-action-icon">
+                            📊
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Analitikani ko'rish
+                            </h3>
+
+                            <p>
+                                Statistikalarni tahlil qiling
+                            </p>
+
+                        </div>
+
+                    </a>
+
+
+                    <a
+                        href="./Sozlamalar.html"
+                        class="quick-action"
+                    >
+
+                        <div class="quick-action-icon">
+                            ⚙️
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Sozlamalar
+                            </h3>
+
+                            <p>
+                                Tizim sozlamalarini boshqaring
+                            </p>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="dashboard-welcome">
+
+            <div>
+
+                <h2>
+                    Xush kelibsiz, Admin! 👋
+                </h2>
+
+                <p>
+                    Dashboard orqali o'quvchilar, hodimlar
+                    va tizim statistikalarini boshqarishingiz mumkin.
+                </p>
+
+            </div>
+
+            <a
+                href="./Analetika.html"
+                class="dashboard-welcome-button"
+            >
+                Statistikani ko'rish
+            </a>
+
+        </div>
+
+    </main>
+
+</div>
+
+    <script src="./mean.js"></script>
+
+
+</body>
+
+</html>
+
